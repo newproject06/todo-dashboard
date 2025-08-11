@@ -15,6 +15,7 @@ Tech Stack
 - LocalStorage API Persistent data
   
 Project Structure
+
 To-Do-Dashboard
 
  index.html # Main HTML layout
