@@ -16,6 +16,7 @@ Tech Stack
   
 Project Structure
 To-Do-Dashboard
+
  index.html # Main HTML layout
  
  style.css # Styling for sidebar and task list
