@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sidebar To-Do Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>My Tasks</h2>
+      <nav>
+        <ul>
+          <li onclick="showTab('all')" id="nav-all" class="active">📋 All Tasks</li>
+          <li onclick="showTab('pending')" id="nav-pending">🕓 Pending</li>
+          <li onclick="showTab('completed')" id="nav-completed">✔️ Completed</li>
+          <li onclick="showTab('reminders')" id="nav-reminders">⏰ Reminders</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main">
+      <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <button onclick="addTask()">Add</button>
+      </div>
+
+      <ul id="taskList" class="task-list"></ul>
+
+      <!-- Reminder Input Section -->
+      <div class="input-section">
+        <input type="text" id="reminderInput" placeholder="Add a reminder (e.g., 'Doctor at 5PM')" />
+        <input type="datetime-local" id="reminderTime" />
+        <button onclick="addReminder()">Add Reminder</button>
+      </div>
+
+      <ul id="reminderList" class="task-list"></ul>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
