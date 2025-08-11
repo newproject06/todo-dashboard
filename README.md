@@ -16,10 +16,10 @@ Tech Stack
   
 Project Structure
 To-Do-Dashboard
- -index.html # Main HTML layout.
- -style.css # Styling for sidebar and task list
- -script.js # JavaScript for app logic
- -README.pdf # Project documentation
+ -index.html            # Main HTML layout
+ -style.css             # Styling for sidebar and task list
+ -script.js             # JavaScript for app logic
+ -README.pdf            # Project documentation
  
 Getting Started
 1. Clone the Repository
