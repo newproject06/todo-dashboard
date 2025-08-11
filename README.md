@@ -14,13 +14,18 @@ Tech Stack
 - JavaScript (ES6) App logic
 - LocalStorage API Persistent data
   
-Project Structure
+## 📂 Project Structure
+
 To-Do-Dashboard
- -index.html            # Main HTML layout
- -style.css             # Styling for sidebar and task list
- -script.js             # JavaScript for app logic
- -README.pdf            # Project documentation
- 
+
+index.html # Main HTML layout
+
+style.css # Styling for sidebar and task list
+
+script.js # JavaScript for app logic
+
+README.md # Project documentation
+
 Getting Started
 1. Clone the Repository
 git clone https://github.com/newproject06e/todo-dashboard.git
